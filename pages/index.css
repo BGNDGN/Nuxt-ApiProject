@@ -1,0 +1,220 @@
+#main1 {
+    display: flex;
+    width: 38%;
+    justify-content: center;
+    align-items: flex-start;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+#main3 {
+    display: block;
+    width: 15%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.islem {
+    text-decoration: underline;
+    text-align: left;
+    padding-left: 60px;
+    margin-bottom: 5px;
+}
+
+.email {
+    text-decoration: underline;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+.ad {
+    text-decoration: underline;
+    text-align: left;
+    padding-left: 0px;
+    margin-bottom: 5px;
+}
+
+.eposta {
+    padding-left: 20px;
+}
+
+.buton1 {
+    margin-left: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    transition: 0.3s;
+}
+
+.buton1:hover {
+    background-color: rgb(255, 212, 212);
+}
+
+.value1 {
+    width: auto;
+    display: block;
+    text-align: center;
+}
+
+.a1, .a2 {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+#abc {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.buton2 {
+    margin: 0;
+    align-self: flex-end;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    transition: 0.2s;
+}
+
+.buton2:hover {
+    background-color: black;
+    color: white;
+}
+
+.value22 {
+    width: auto;
+}
+
+.a5, .a6 {
+    display: flex;
+    justify-content: flex-start;
+    width: 40%;
+    margin-bottom: 5px;
+}
+
+/* Masaüstü Ekranları için Özelleştirilmiş Stiller */
+@media (min-width: 1024px) {
+    #main1 {
+        width: 50%; /* Orta boyutlu ekranlar için genişlik */
+        font-size: 18px; /* Yazı boyutunu biraz büyüttüm */
+        padding: 20px; /* Padding'i artırdım */
+    }
+
+    #main3 {
+        width: 20%; /* Düşük genişlikte, orta büyüklük */
+        font-size: 18px; /* Font büyüklüğünü artırdım */
+    }
+
+    .buton1, .buton2 {
+        padding: 15px 20px; /* Butonları büyüttüm */
+    }
+
+    .a1, .a2, .a5, .a6 {
+        width: 50%; /* Flex düzeni ile genişlikleri ayarladım */
+    }
+}
+
+/* Daha Küçük Masaüstü Ekranları (1650px ve üstü) */
+@media (min-width: 1650px) {
+    #main1 {
+        width: 60%; /* Daha geniş alan */
+        font-size: 20px; /* Yazı tipi boyutunu daha da büyüttüm */
+    }
+
+    #main3 {
+        width: 25%; /* Daha geniş alan */
+        font-size: 20px;
+    }
+
+    .buton1, .buton2 {
+        padding: 20px 25px; /* Daha büyük butonlar */
+    }
+
+    .a1, .a2, .a5, .a6 {
+        width: 60%; /* Geniş alanlarda öğeleri büyütme */
+    }
+}
+
+/* Mobil cihazlar için (768px ve altı) */
+@media (max-width: 768px) {
+    #main1 {
+        width: 90%; /* Ekranın tamamını kapsayacak şekilde genişlik */
+        font-size: 14px; /* Font boyutunu küçültüyorum */
+    }
+
+    #main3 {
+        width: 90%; /* Ekranın tamamını kapsayacak şekilde genişlik */
+        font-size: 14px;
+    }
+
+    .a1, .a2 {
+        flex-direction: column; /* Dikey yerleşim */
+        align-items: flex-start;
+    }
+
+    .buton1, .buton2 {
+        width: 100%; /* Butonlar tam genişlikte */
+        margin: 10px 0;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+}
+
+/* Mobil cihazlar için (576px ve altı) */
+@media (max-width: 576px) {
+    #main1 {
+        font-size: 12px; /* Daha küçük yazı boyutu */
+        padding: 21px; /* Padding değerini ayarladım */
+    }
+
+    .buton1 {
+        width: 80px;
+    }
+
+    .islem {
+        padding-left: 22px;
+    }
+    
+
+    #main3 {
+        font-size: 12px;
+    }
+
+    .buton1, .buton2 {
+        font-size: 12px;
+        padding: 10px 15px; /* Butonlar daha küçük */
+    }
+
+    .a1, .a2, .a5, .a6 {
+        width: 100%; /* Tam genişlik */
+    }
+
+    h3 {
+        font-size: 14px; /* Başlık boyutunu küçülttüm */
+    }
+}
