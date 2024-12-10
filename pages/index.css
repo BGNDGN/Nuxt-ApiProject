@@ -115,68 +115,65 @@ h3 {
     margin-bottom: 5px;
 }
 
-/* Masaüstü Ekranları için Özelleştirilmiş Stiller */
 @media (min-width: 1024px) {
     #main1 {
-        width: 50%; /* Orta boyutlu ekranlar için genişlik */
-        font-size: 18px; /* Yazı boyutunu biraz büyüttüm */
-        padding: 20px; /* Padding'i artırdım */
+        width: 50%; 
+        font-size: 18px; 
+        padding: 20px; 
     }
 
     #main3 {
-        width: 20%; /* Düşük genişlikte, orta büyüklük */
-        font-size: 18px; /* Font büyüklüğünü artırdım */
+        width: 20%;
+        font-size: 18px; 
     }
 
     .buton1, .buton2 {
-        padding: 15px 20px; /* Butonları büyüttüm */
+        padding: 15px 20px; 
     }
 
     .a1, .a2, .a5, .a6 {
-        width: 50%; /* Flex düzeni ile genişlikleri ayarladım */
+        width: 50%; 
     }
 }
 
-/* Daha Küçük Masaüstü Ekranları (1650px ve üstü) */
 @media (min-width: 1650px) {
     #main1 {
-        width: 60%; /* Daha geniş alan */
-        font-size: 20px; /* Yazı tipi boyutunu daha da büyüttüm */
+        width: 60%;
+        font-size: 20px; 
     }
 
     #main3 {
-        width: 25%; /* Daha geniş alan */
+        width: 25%;
         font-size: 20px;
     }
 
     .buton1, .buton2 {
-        padding: 20px 25px; /* Daha büyük butonlar */
+        padding: 20px 25px; 
     }
 
     .a1, .a2, .a5, .a6 {
-        width: 60%; /* Geniş alanlarda öğeleri büyütme */
+        width: 60%; 
     }
 }
 
-/* Mobil cihazlar için (768px ve altı) */
 @media (max-width: 768px) {
     #main1 {
-        width: 90%; /* Ekranın tamamını kapsayacak şekilde genişlik */
-        font-size: 14px; /* Font boyutunu küçültüyorum */
+        width: 90%; 
+        font-size: 14px;
     }
 
     #main3 {
-        width: 90%; /* Ekranın tamamını kapsayacak şekilde genişlik */
+        width: 90%;
         font-size: 14px;
     }
 
     .a1, .a2 {
-        flex-direction: column; /* Dikey yerleşim */
+        flex-direction: column;
         align-items: flex-start;
     }
 
     .buton1, .buton2 {
-        width: 100%; /* Butonlar tam genişlikte */
+        width: 100%;
         margin: 10px 0;
     }
 
@@ -185,11 +182,10 @@ h3 {
     }
 }
 
-/* Mobil cihazlar için (576px ve altı) */
 @media (max-width: 576px) {
     #main1 {
-        font-size: 12px; /* Daha küçük yazı boyutu */
-        padding: 21px; /* Padding değerini ayarladım */
+        font-size: 12px; 
+        padding: 21px; 
     }
 
     .buton1 {
@@ -207,14 +203,14 @@ h3 {
 
     .buton1, .buton2 {
         font-size: 12px;
-        padding: 10px 15px; /* Butonlar daha küçük */
+        padding: 10px 15px; 
     }
 
     .a1, .a2, .a5, .a6 {
-        width: 100%; /* Tam genişlik */
+        width: 100%;
     }
 
     h3 {
-        font-size: 14px; /* Başlık boyutunu küçülttüm */
+        font-size: 14px;
     }
 }
